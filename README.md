@@ -21,7 +21,9 @@ The program will be tested on LARGE (>1GB) files which could be greater than RAM
 
 The input file path would be given to you as an argument to your program along with the start and stop character, reverse the rest of the file and leave the portion of the file from the start character to the stop character untouched. In order to do this you will have to reverse the file in two parts, from 0 to the start character and from the end character to the end of the document. Assume the first character of the document to be 0:
 
+
 The input file path would be given to you as an argument to your program: ```./a.out < input file path > start_char end_char```
+
 The output file must be named: ```2 < input file name >```
 
 
